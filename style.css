@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  font-family: Arial, sans-serif;
+}
+
+.startScreen {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startScreen h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.gameScreen {
+  display: none;
+}
+
+.backgroundBox {
+  width: 100%;
+  height: 100vh;
+  background-image: url("background.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.boy {
+  height: 250px;
+  margin-top: 400px;
+  position: absolute;
+}
+
+.score {
+  font-size: 60px;
+  position: absolute;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.box {
+  width: 35px;
+  height: 100px;
+  background-image: url("flame.gif");
+  background-size: 50px 100%;
+  position: absolute;
+  margin-top: 540px;
+}
+
+.endGame {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(red, black);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "poppins";
+  color: white;
+  visibility: hidden;
+}
+
+.logo {
+  vertical-align: bottom;
+  margin-right: 80px;
+  padding-top: 100px;
+}
+
+.startScreen {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("start_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-weight: bolder;
+  font-family: Arial;
+  color: rgb(255, 237, 78);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: green;
+  width: 400px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+}
