@@ -2,7 +2,7 @@
 var gameStarted = false;
 var runImageNumber = 1;
 var runAnimationId = 0;
-var runSoundClip = new Audio("run.mp3");
+var runSoundClip = new Audio("assets/run.mp3");
 runSoundClip.loop = true;
 var x = 0;
 var moveBackgroundAnimationId = 0;
@@ -10,7 +10,7 @@ var score = 0;
 var scoreAnimationId = 0;
 var jumpImageNumber = 1;
 var jumpAnimationId = 0;
-var jumpSoundClip = new Audio("jump.mp3");
+var jumpSoundClip = new Audio("assets/jump.mp3");
 var boyMarginTop = 400;
 var boxMarginLeft = 300;
 var boxAnimationId = 0;
@@ -68,7 +68,8 @@ function boyRun() {
     runImageNumber = 1;
   }
 
-  document.getElementById("boy").src = "Run (" + runImageNumber + ").png";
+  document.getElementById("boy").src =
+    "assets/Run (" + runImageNumber + ").png";
 }
 
 // Function to move the background
@@ -116,7 +117,8 @@ function boyJump() {
       boxAnimationId = setInterval(moveBoxes, 100);
     }
   }
-  document.getElementById("boy").src = "Jump (" + jumpImageNumber + ").png";
+  document.getElementById("boy").src =
+    "assets/Jump (" + jumpImageNumber + ").png";
 }
 
 // Function to create boxes in the game
@@ -185,7 +187,8 @@ function boyDead() {
     document.getElementById("endScore").innerHTML = score;
   }
 
-  document.getElementById("boy").src = "Dead (" + deadImageNumber + ").png";
+  document.getElementById("boy").src =
+    "assets/Dead (" + deadImageNumber + ").png";
 }
 
 // Function to reload the game

@@ -30,7 +30,7 @@ html {
 .backgroundBox {
   width: 100%;
   height: 100vh;
-  background-image: url("background.png");
+  background-image: url("assets/background.png");
   background-repeat: repeat-x;
   background-size: cover;
   overflow-x: hidden;
@@ -53,7 +53,7 @@ html {
 .box {
   width: 35px;
   height: 100px;
-  background-image: url("flame.gif");
+  background-image: url("assets/flame.gif");
   background-size: 50px 100%;
   position: absolute;
   margin-top: 540px;
@@ -85,7 +85,7 @@ html {
   position: absolute;
   width: 100%;
   height: 100vh;
-  background-image: url("start_background.jpg");
+  background-image: url("assets/start_background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
